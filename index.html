@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="kelompok">
+      <input id="prompt" type="text" value="" />
+
+      <div class="baris0">
+        <button id="clear" onclick="btnC()">C</button>
+        <button id="del" onclick="pangkat()">x <sup>y</sup></button>
+        <button id="percent" onclick="persen()">%</button>
+        <button id="div" onclick="div()">/</button>
+        <!-- <button>4</button> -->
+      </div>
+      <div class="baris1">
+        <button id="btn1" onclick="btn1()">1</button>
+        <button id="btn2" onclick="btn2()">2</button>
+        <button id="btn3" onclick="btn3()">3</button>
+        <button id="plus" onclick="plus()">+</button>
+        <!-- <button>4</button> -->
+      </div>
+      <div class="baris2">
+        <button id="btn4" onclick="btn4()">4</button>
+        <button id="btn5" onclick="btn5()">5</button>
+        <button id="btn6" onclick="btn6()">6</button>
+        <button id="min" onclick="minus()">-</button>
+        <!-- <button>8</button> -->
+      </div>
+      <div class="baris3">
+        <button id="btn7" onclick="btn7()">7</button>
+        <button id="btn8" onclick="btn8()">8</button>
+        <button id="btn9" onclick="btn9()">9</button>
+        <button id="mul" onclick="mul()">X</button>
+      </div>
+      <div class="baris4">
+        <button id="negative" onclick="negative()">+/-</button>
+        <button id="btn0" onclick="btn0()">0</button>
+        <button id="coma" onclick="coma()">.</button>
+        <button id="equals" onclick="Result()">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

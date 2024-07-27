@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: unset;
+}
+.kelompok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30dvh;
+  gap: 10px;
+}
+.kelompok > #prompt {
+  font-size: 48px;
+  color: white;
+  background: black;
+  border: solid black;
+  text-align: center;
+}
+.kelompok > .baris0 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris0 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
+.kelompok > .baris1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris1 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
+.kelompok > .baris1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris1 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
+.kelompok > .baris2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris2 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
+.kelompok > .baris3 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris3 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
+.kelompok > .baris4 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 10px;
+}
+.kelompok > .baris4 > button {
+  padding: 20px;
+  border-radius: 45%;
+  border: none;
+  color: white;
+  background: orange;
+  font-size: 36px;
+}
